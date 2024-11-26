@@ -161,12 +161,14 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   background: var(--snd-bg-color);
 }
 
 .about-img img{
-  width: 35vw;
+  width: 20vw;
+  border-radius: 10%;
+  
 }
 
 .heading{
@@ -185,6 +187,11 @@ span{
  .about-content p{
   font-size: 1.6rem;
   margin:2rem 0 3rem;
+ }
+ .about-content li{
+  font-size: 1.6rem;
+  margin:2rem 0 3rem;
+  
  }
 
  .project{
