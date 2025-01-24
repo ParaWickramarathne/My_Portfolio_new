@@ -222,7 +222,7 @@ span{
   width: 400px;
   height: 350px;
   transition: .5s ease;
-  opacity: 0.7;
+  opacity: 0.9;
  }
 
  .project-box:hover img{
@@ -301,6 +301,58 @@ span{
   margin-top: 2rem;
   cursor: pointer;
 } */
+
+.certificate{
+  background: var(--snd-bg-color);
+ }
+
+ .certificate h2{
+  margin-bottom: 4rem;
+ }
+  
+
+ .certificate-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items:center;
+  gap: 2.5rem;
+ }
+
+ .certificate-container .certificate-box{
+  position: relative;
+  
+  box-shadow: 0 0 rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+ }
+
+ .certificate-box img{
+  width: 450px;
+  height: 200px;
+  transition: .5s ease;
+ 
+ }
+
+ .certificate-box:hover img{
+  transform: scale(1.1);
+ }
+
+ .certificate-box .certificate-layer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.1), var (--main-color));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translate(100%);
+  transition: .5s ease;
+ }
+ 
 
 
 /* contact */
