@@ -481,6 +481,9 @@ span{
   .project{
     padding-bottom: 7rem;
   }
+  .certificate{
+    padding-bottom: 7rem;
+  }
   .contact{
     min-height: auto;
   }
@@ -490,9 +493,9 @@ span{
 }
 
 @media(max-width: 991px){
-  #menu-icon{
+  /* #menu-icon{
     display: block;
-  }
+  } */
   .home{
     flex-direction: column;
   }
@@ -508,8 +511,8 @@ span{
 
 
 .home-img img{
-  width:90vw;
-  margin-top: 4rem;
+  width:70vw;
+  margin-top: 2rem;
 }
 .about{
   flex-direction:column;
@@ -524,15 +527,22 @@ span{
 .project-container{
   grid-template-columns: repeat(2,1fr);
 }
+.certificate-container{
+  grid-template-columns: repeat(2,1fr);
 }
+}
+
 
 @media(max-width: 617px){
   .project-container{
     grid-template-columns: 1fr;
   }
+  .certificate-container{
+    grid-template-columns: 1fr;
+  }
   .home-img img{
-    width:100vw;
-    margin-top:8rem;
+    width:70vw;
+    margin-top:4rem;
   }
   .about-img img{
     width:100vw;
